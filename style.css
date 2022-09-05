@@ -1,0 +1,62 @@
+.time{
+    font-size: 0.8em;
+    color:black ;
+}
+.list-group-item{
+    background-color:rgba(128, 128, 128,1);
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url('bg.jpg');
+    background-repeat: repeat;
+    border: 10px double rgba(245, 222, 179,.3);
+}
+.container{
+    z-index: 3;
+    opacity: 100%;
+    
+}
+#name{
+    font-weight: bold;
+}
+.btn{
+    background-color: cadetblue;
+}
+.btn:hover
+{
+    background-color:deepskyblue;
+}
+.input-group-text{
+    background-color:darkcyan;
+    border-radius: 0;
+    font-weight: bold;
+    border: 0px;
+    font-style:oblique;
+}
+.form-control{
+    background-color:rgba(116, 101, 101, 1);
+    color: black;
+    border: none;
+}
+.form-control:focus{
+    background-color: rgba(116, 101, 101, 1);
+}
+.form-control::placeholder{
+    color: black;
+    font-style: italic;
+}
+#sub{
+    padding: 6px;
+    width: 70px;
+    font-weight: bold;
+    background-color: rgb(233, 133, 133);
+    border: 45px;
+    border-color:rgb(33, 45, 45);
+    border-left: 2px solid black;
+    
+}
+form{
+    border: 2px solid black;
+}
